@@ -12,6 +12,8 @@ export class Converter {
                     lesson.date = {
                         start: this.convertDate(lesson.date.start),
                         end: this.convertDate(lesson.date.end),
+                        week: lesson.date.week,
+                        weekday: lesson.date.weekday,
                     }
                     lesson.audiences = lesson.audiences.map((audience) => audience.name);
                     lesson.teachers = lesson.teachers.map((teacher) => teacher.name);
