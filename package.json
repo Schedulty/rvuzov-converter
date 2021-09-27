@@ -1,6 +1,6 @@
 {
   "name": "@schedulty/rvuzov-converter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Переводит расписание из формата rvuzov в Schedulty",
   "main": "dist/index.js",
   "scripts": {
